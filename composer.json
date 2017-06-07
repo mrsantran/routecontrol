@@ -1,0 +1,21 @@
+{
+    "name": "santran/routecontrol",
+    "description": "",
+    "type": "library",
+    "require": {
+        "php": ">=5.5.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "SanTran\\RouteControl\\": "src/"
+        }
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "San Tran",
+            "email": "santran686@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev"
+}
